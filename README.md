@@ -7,6 +7,26 @@
 ```bash
 npx create-backend-app
 ```
+```bash
+cd <project_name>
+npm install
+```
+<br>
+
+> write your database name in the `database/index.js` 
+```javascript
+const DBName = ""; //replace your database name
+```
+<br>
+
+> Add your `mongoDB connection string`, `password` and `CORS origin` in the `.env` file
+```env
+  MONGO_URI=mongodb+srv://USERNAME:<db_password>@cluster-test.dyzrsx0.mongodb.net/
+  MONGO_PASS=abcde12345
+  CORS_ORIGIN=http://localhost:3000
+```
+
+
 
 ##### Folder structure:
 
